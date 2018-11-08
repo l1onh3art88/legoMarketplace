@@ -1,0 +1,58 @@
+.banner{
+  height:15vh;
+  background:url("../../..//assets//images/blue.jpg");
+  background-size:cover;
+  background-position: 50%;
+  filter:hue-rotate(90deg)
+}
+.marketplace-title{
+  text-align: center;
+  font-family:"Ubuntu";
+  font-size:4em;
+  font-weight:100;
+  margin-top:2vh;
+
+}
+u{
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+.market-items{
+  margin-top:5vh;
+}
+/* Controls */
+.controls{
+  max-width:80vw;
+  margin:auto;
+  font-family: "Ubuntu";
+  border-bottom: 1px solid black;
+}
+ul li{
+  display: inline-block;
+  list-style: none;
+  margin-left:1vw
+}
+/* Featured */
+#featured h2{
+  text-align: center;
+  width:100%;
+  font-family:"Ubuntu";
+  font-weight:100;
+  margin-bottom:5vh;
+}
+#featured .item{
+  width:20vw;
+  display: inline-block;
+  text-align:center;
+}
+#featured .item-description p {
+  margin:0;
+  font-family: "Ubuntu"
+}
+#featured .item img{
+  height:100%;
+  max-width: 100%;
+}
+.item-image-box{
+  height:15vw;
+}

@@ -1,0 +1,52 @@
+.splashSection{
+  background: url("../../../assets/images/legosplash2.jpg");
+  background-size:cover;
+  height:90vh;
+  background-position:50%;
+}
+.splash-header{
+  color:white;
+  position: relative;
+  z-index: 10;
+  text-align:center;
+  padding-top:15vh;
+}
+.splash-header h1{
+  font-size:9em;
+  margin:0;
+  padding:0;
+  font-weight:100;
+  line-height: 15vh;
+}
+.splash-title h1{
+  color:black;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  font-size:4em;
+  font-weight:300;
+}
+.overlay {
+  background: black;
+  position: absolute;
+  opacity: 0.35;
+  width: 100vw;
+  z-index: 1;
+  height: 90vh;
+}
+
+.enterButton{
+  background:transparent;
+  border:1px solid white;
+  color:white;
+  font-family:"Ubuntu";
+  margin-top:5vh;
+  font-size:1.5em;
+  font-weight: 100;
+  cursor: pointer;
+  transition:all 1s;
+}
+.enterButton:hover{
+  background:white;
+  color:black;
+}

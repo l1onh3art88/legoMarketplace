@@ -1,0 +1,22 @@
+
+/* Navbar CSS */
+li a{
+  font-family: "Ubuntu"
+}
+
+#shopcart-icon{
+  vertical-align: text-top;
+  margin-right:4px;
+}
+.nav-item a{
+  font-size:14px;
+}
+.nav-item{
+  margin-left:1vw;
+}
+.navbar{
+  padding-left:7vw;
+  padding-right:7vw;
+  height:10vh;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+}
