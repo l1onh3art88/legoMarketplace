@@ -1,3 +1,4 @@
+import { ItemPageComponent } from './components/item-page/item-page.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
@@ -17,6 +18,10 @@ const routes: Routes = [
     path: 'marketplace',
     component: MarketplaceComponent,
     data: {title: 'Marketplace'}
+  },
+  {
+    path: 'item/:id',
+    component: ItemPageComponent,
   }
 ];
 

@@ -1,0 +1,19 @@
+.footer-section h5{
+  max-width:25vw;
+  font-size:1em;
+  font-family:"Ubuntu"
+}
+.footer-section{
+  max-width:100vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+.footer{
+  background:lightgrey;
+  margin-top:5vh;
+  padding:none;
+  width:100vw;
+}
+.footer .row{
+  padding-top:2vh;
+}
